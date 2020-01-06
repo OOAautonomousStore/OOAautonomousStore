@@ -3,6 +3,7 @@ import ch.store.laden.Packages;
 import ch.store.laden.Regale;
 
 
+'test'
 public class TestPackage {
 public static void main(String[] args) {
 	Packages p = new Packages();

@@ -15,7 +15,7 @@ public class MainLaden {
 		int kundenAbfrageAntwort = kundenAntwort.nextInt();
 
 		if (kundenAbfrageAntwort == 2) {
-			System.out.println("Tut mir leid, Du darfst nicht eintreten! Willst Du Dich registrieren?");
+			System.out.println("Tut mir leid, Du darfst nicht eintreten! Willst Du Dich registrieren? oder lieber deine Daten privat halten?");
 			System.out.println("1. Ja");
 			System.out.println("2. Nein");
 			int kundenRegistrierenAntwort = kundenAntwort.nextInt();

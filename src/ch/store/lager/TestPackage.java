@@ -8,9 +8,7 @@ import ch.store.laden.Regale;
 'TEST
 
 
-public class TestPackage {
-	String tTestString = "" ;
-	
+public class TestPackage {	
 	
 public static void main(String[] args) {
 	Packages p = new Packages();

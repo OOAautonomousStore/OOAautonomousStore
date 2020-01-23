@@ -6,7 +6,7 @@ public class Warenkorb {
 	
 	//Attribute
 	private int warenkorbID;
-	Date warenkorbDatum = new Date(2020, 12, 31);
+	public Date warenkorbDatum;
 	//Konstruktoren
 	
 	//Methoden

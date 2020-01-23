@@ -1,12 +1,12 @@
-package ch.store.main;
+package ch.main;
 
-import java.util.Scanner;
+import ch.kunde.Begruessung;
 
 public class MainLaden {
 
 	public static void main(String[] args) {
 
-		
-		
+//		Begruessung.starten();
+
 	}
 }

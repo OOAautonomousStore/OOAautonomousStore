@@ -12,6 +12,12 @@ public class superProdukte {
 	
 	
 	//Methoden
+	public void setPreis() {
+		
+	}
 	
+	public void getPreis() {
+		
+	}
 	
 }

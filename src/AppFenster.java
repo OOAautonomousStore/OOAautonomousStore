@@ -50,7 +50,7 @@ public class AppFenster {
 		JLabel lblHello = new JLabel("Hello");
 		frame.getContentPane().add(lblHello, BorderLayout.NORTH);
 		
-		
+		//Test
 		JButton btnNewButton = new JButton("New button");
 		
 		btnNewButton.addActionListener(new ActionListener() {

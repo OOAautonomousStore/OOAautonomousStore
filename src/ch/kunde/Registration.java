@@ -1,4 +1,4 @@
-package ch.kunde.Registration;
+package ch.kunde;
 
 public class Registration {
 

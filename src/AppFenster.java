@@ -2,8 +2,15 @@ import java.awt.EventQueue;
 
 import javax.swing.JFrame;
 import javax.swing.JPanel;
+
+import org.omg.CORBA.PUBLIC_MEMBER;
+
 import java.awt.BorderLayout;
 import javax.swing.JButton;
+import java.awt.event.ActionListener;
+import java.util.function.Function;
+import java.awt.event.ActionEvent;
+import javax.swing.JLabel;
 
 public class AppFenster {
 
@@ -40,11 +47,24 @@ public class AppFenster {
 		frame.setBounds(100, 100, 450, 300);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
-		JPanel panel = new JPanel();
-		frame.getContentPane().add(panel, BorderLayout.SOUTH);
+		JLabel lblHello = new JLabel("Hello");
+		frame.getContentPane().add(lblHello, BorderLayout.NORTH);
+		
 		
 		JButton btnNewButton = new JButton("New button");
-		panel.add(btnNewButton);
+		
+		btnNewButton.addActionListener(new ActionListener() {
+			
+			public void actionPerformed(ActionEvent e) {
+			
+				lblHello.setText("World");
+			
+			
+			}
+		});
+		frame.getContentPane().add(btnNewButton, BorderLayout.SOUTH);
+		
+		
 	}
 
 }

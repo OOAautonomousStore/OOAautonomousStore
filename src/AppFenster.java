@@ -1,10 +1,7 @@
 import java.awt.EventQueue;
-
 import javax.swing.JFrame;
 import javax.swing.JPanel;
-
 import org.omg.CORBA.PUBLIC_MEMBER;
-
 import java.awt.BorderLayout;
 import javax.swing.JButton;
 import java.awt.event.ActionListener;
@@ -46,13 +43,18 @@ public class AppFenster {
 		frame = new JFrame();
 		frame.setBounds(100, 100, 450, 300);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
 		
 		JLabel lblHello = new JLabel("Hello");
 		frame.getContentPane().add(lblHello, BorderLayout.NORTH);
 		
-		//Test
+
+		JPanel panel = new JPanel();
+		frame.getContentPane().add(panel, BorderLayout.SOUTH);
+
+
 		JButton btnNewButton = new JButton("New button");
-		
+
 		btnNewButton.addActionListener(new ActionListener() {
 			
 			public void actionPerformed(ActionEvent e) {
@@ -64,7 +66,7 @@ public class AppFenster {
 		});
 		frame.getContentPane().add(btnNewButton, BorderLayout.SOUTH);
 		
-		
-	}
+		frame.getContentPane().add(btnNewButton, BorderLayout.WEST);
+}
 
 }

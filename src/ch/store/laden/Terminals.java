@@ -1,5 +1,5 @@
 package ch.store.laden;
 
-public class Packages {
+public class Terminals {
 
 }
